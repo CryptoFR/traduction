@@ -1,0 +1,327 @@
+<?xml version='1.0'?>
+<xliff version="1.2">
+  <file source-language="en" original="mimblewimble_wpdocx" datatype="DOCX" target-language="fr">
+    <header>
+      <phase-group>
+        <phase tool-id="lokalize-2.0" contact-name="vincent" process-name="approval" contact-email="" phase-name="approval-1" date="2019-01-30"/>
+      </phase-group>
+      <tool tool-name="Lokalize" tool-id="lokalize-2.0" tool-version="2.0"/>
+    </header>
+    <body>
+      <trans-unit resname="4e3c3667a7e4ef37cbc696a397fda826" id="1">
+        <source>																MIMBLEWIMBLE</source>
+        <target>																MIMBLEWIMBLE</target>
+      </trans-unit>
+      <trans-unit resname="c6b12ee067e943eebf995345d5401ccf" id="2">
+        <source>																Tom Elvis Jedusor</source>
+        <target>																Tom Elvis Jedusor</target>
+      </trans-unit>
+      <trans-unit resname="e7cfd48b7ae21c9102408b35cf25d88c" id="3">
+        <source>																19 July, 2016</source>
+        <target>19 Juillet, 2016</target>
+      </trans-unit>
+      <trans-unit resname="3dfedb4402205034f1f3d22e919be0a2" id="4">
+        <source>																</source>
+      </trans-unit>
+      <trans-unit resname="90b108a35ef21a033af6c33ac9b04096" id="5">
+        <source>																\****/</source>
+        <target>																\****/</target>
+      </trans-unit>
+      <trans-unit resname="ab4769353f701b425412e4e3620df5a0" id="6">
+        <source>																Introduction</source>
+        <target>																Introduction</target>
+      </trans-unit>
+      <trans-unit resname="a8784863c1318c77753069afef4adf44" id="7">
+        <source>																/****\</source>
+        <target>																/****\</target>
+      </trans-unit>
+      <trans-unit resname="a7f2967ac047f8358e12e7dd341c8ae0" id="8">
+        <source>																Bitcoin is the first widely used financial system for which all the necessary data to validate the system status can be cryptographically verified by anyone.</source>
+        <target>Bitcoin est le premier système financier utilisé à grande échelle pour lequel toutes les données nécessaires à la validation de l’état du système peuvent être vérifiées de façon cryptographique par n’importe qui.</target>
+      </trans-unit>
+      <trans-unit resname="c38cc6bb4f3c53321de5425a1aafa86a" id="9">
+        <source>																However, it accomplishes this feat by storing all transactions in a public database called "the blockchain" and someone who genuinely wishes to check this state must download the whole thing and basically replay each transaction,check each one as they go. Meanwhile, most of these transactions have not affected the actual final state (they create outputs that are destroyed a transaction later).</source>
+        <target>Cependant, cette propriété est accomplie en stockant toutes les transactions dans une base de données publique appelée "la blockchain" et quiconque souhaite véritablement vérifier cet état doit télécharger tout le processus, puis rejouer chaque transaction et les vérifier une à une.  Pendant ce temps, la plupart de ces transactions n'ont pas affecté l'état final réel (elles créent des sorties qui sont détruites à la prochaine transaction).</target>
+      </trans-unit>
+      <trans-unit resname="535fda3a6d16b6dec19e9d1cef5f955e" id="10">
+        <source>																At the time of this writing, there were nearly 150 million transactions committed in the blockchain, which must be replayed to produce a set of only 4 million unspent outputs.</source>
+        <target>Au moment d'écrire ces lignes, près de 150 millions de transactions ont été inscrites dans la blockchain, lesquelles doivent être rejouées pour produire un ensemble de seulement 4 millions de sorties non dépensées.</target>
+      </trans-unit>
+      <trans-unit resname="4e012e6761f99c0dae46790bcbf0b1f6" id="11">
+        <source>																It would be better if an auditor needed only to check data on the outputs themselves, but this is impossible because they are valid if and only if the output is at the end of a chain of previous outputs, each signs the next. In other words, the whole blockchain must be validated to confirm the final state.</source>
+        <target>Il serait preférable si un auditeur devait seulement vérifier les données sur les sorties elles-mêmes, mais cela est impossible car elles sont valides si et seulement si la sortie est à la fin d'une chaîne de sorties précédentes, chacune signe la suivante. En d'autres termes, toute la blockchain doit être validée pour confirmer l'état final.</target>
+      </trans-unit>
+      <trans-unit resname="ddcd6841f887dff80d3f6fac178af0a5" approved="yes" id="12">
+        <source>																Add to this that these transactions are cryptographically atomic, it is clear what outputs go into every transaction and what emerges. The "transaction graph" resulting reveals a lot of information and is subjected to analysis by many companies whose business model is to monitor and control the lower classes. This makes it very non-private and even dangerous for people to use.</source>
+        <target phase-name="approval-1" state="signed-off">Ajoutez à cela que ces transactions sont atomique cryptographiquement, il est clair que les sorties vont dans chaque transaction et ce qui en ressort. Le "graphe de transaction" qui en résulte révèle beaucoup d'informations et est soumis à l'analyse de nombreuses entreprises dont le modèle économique consiste à surveiller et contrôler les classes inférieures. Cela le rend publique et dangereux pour les utilisateurs.</target>
+      </trans-unit>
+      <trans-unit resname="50893ec2054a5d2778c3d8921067de4f" approved="yes" id="13">
+        <source>																Some solutions to this have been proposed. Greg Maxwell discovered to encrypt the amounts, so that the graph of the transaction is faceless but still allow validation that the sums are correct [1]. Dr Maxwell also produced CoinJoin, a system for Bitcoin users to combine interactively transactions, confusing the transaction graph. Nicolas van Saberhagen has developed a system to blind the transaction entries, goes much further to cloud the transaction graph (as well as not needed the user interaction)[3]. Later, Shen Noether combined the two approaches to obtain "confidential transactions" of Maxwell AND the darkening of van Saberhagen [4].</source>
+        <target phase-name="approval-1" state="signed-off">Certaines solutions à ce problème ont été proposées. Greg Maxwell a découvert qu'il fallait chiffrer les montants pour que le graphe de transaction soit anonyme, tout en permettant de confirmer que les sommes sont correctes [1]. M. Maxwell a également mis au point CoinJoin, un système permettant aux utilisateurs de Bitcoin de combiner de manière interactive des transactions, ce qui permet de confondre le graphe de transaction. Nicolas van Saberhagen a mis au point un système pour masquer les entrées de transaction, en allant beaucoup plus loin dans le nuage du graphe de transaction (sans avoir besoin de l'interaction utilisateur) [3]. Plus tard, Shen Noether a combiné les deux approches pour obtenir des "transactions confidentielles" de Maxwell ET l'obscurcissement de van Saberhagen [4].</target>
+      </trans-unit>
+      <trans-unit resname="9f44bc6453057d1f53a2f1416d8cd8d5" approved="yes" id="14">
+        <source>																These solutions are very good and would make Bitcoin very safe to use. But the problem of too much data is made even worse. Confidential transactions require multi-kilobyte proofs on every output, and van Saberhagen signatures require every output to be stored for ever, since it is not possible to tell when they are truly spent.</source>
+        <target phase-name="approval-1" state="signed-off">Ces solutions sont très bonnes et rendraient Bitcoin très sûr à utiliser. Mais le problème est que le nombre de données stockées est encore plus important. Les transactions confidentielles nécessitent des preuves de plusieurs kilo-octets sur chaque sortie, et les signatures de Van Saberhagen exigent que chaque sortie soit stockée à tout jamais, puisqu' il est impossible de dire quand elles sont réellement dépensées.</target>
+      </trans-unit>
+      <trans-unit resname="da62a8aae001588e579b3edbaca1741e" approved="yes" id="15">
+        <source>																Dr. Maxwell's CoinJoin has the problem of needing interactivity. Dr. Yuan Horas Mouton fixed this by making transactions freely mergeable [5], but he needed to use pairing-based cryptography, which is potentially slower and more difficult to trust. He called this "one-way aggregate signatures"(OWAS).</source>
+        <target phase-name="approval-1" state="signed-off">CoinJoin du Dr. Maxwell's a le problème du besoin d'interactivité. Le Dr. Yuan Horas Mouton a corrigé ce problème en rendant les transactions librement fusionnables [5], mais il devait utiliser une cryptographie basée sur le couplage, qui est potentiellement plus lente et dans laquelle il est plus difficile d'avoir confiance. Il a appelé cela "signatures à sens unique" (OWAS).</target>
+      </trans-unit>
+      <trans-unit resname="fd7d6daa255b7560fcaaf9c8027066a0" approved="yes" id="16">
+        <source>																OWAS had the good idea to combine the transactions in blocks. Imagine that we can combine across blocks (perhaps with some glue data) so that when the outputs are created and destroyed, it is the same as if they never existed. Then, to validate the entire chain, users only need to know when money is entered into the system (new money in each block as in Bitcoin or Monero or peg-ins for sidechains [6]) and final unspent outputs, the rest can be removed and forgotten. Then we can have Confidential Transactions to hide the amounts and OWAS to blur the transaction graph, and use LESS space than Bitcoin to allow users to fully verify the blockchain. And also imagine that we must not pairing-based cryptography or new hypotheses, just regular discrete logarithms signatures like Bitcoin. Here is what I propose.</source>
+        <target phase-name="approval-1" state="signed-off">OWAS a eu la bonne idée de combiner les transactions en blocs. Imaginons que nous puissions combiner plusieurs blocs (peut-être avec quelques données ajoutée) de sorte que, lorsque les sorties sont créées et détruites, ce soit comme si elles n'avaient jamais existé. Ensuite, pour valider l’ensemble de la chaîne, les utilisateurs doivent seulement savoir quand de l’argent est entré dans le système (nouvel argent dans chaque bloc, comme dans Bitcoin ou Monero, ou peg-ins pour les sidechains [6]) et les sorties finales non dépensées, le reste pouvant être enlevé et oublié. Ensuite, nous pouvons avoir des transactions confidentielles pour masquer les montants et OWAS pour brouiller le graphe de transaction, et utiliser MOINS d'espace que Bitcoin pour permettre aux utilisateurs de vérifier pleinement la blockchain. Et imaginez également que nous ne devons pas utiliser une cryptographie à base de couplages ou de nouvelles hypothèses, mais simplement des signatures logarithmiques discrètes régulières telles que Bitcoin. Voici ce que je propose.</target>
+      </trans-unit>
+      <trans-unit resname="d5e71beb74c6698ccc93e44112c37388" id="17">
+        <source>																I call my creation Mimblewimble because it is used to prevent the blockchain from talking about all user's information [7].</source>
+        <target>J'appelle ma création Mimblewimble car elle est utilisée pour empêcher la blockchain de parler de toutes informations à propos de l'utilisateur [7].</target>
+      </trans-unit>
+      <trans-unit resname="f1afe687d90d5aed7fcfdf181ad772e0" id="18">
+        <source>																Confidential Transactions and OWAS</source>
+        <target>Transactions confidentielles et OWAS</target>
+      </trans-unit>
+      <trans-unit resname="5714765359ce8abcd59cf15413073e37" id="19">
+        <source>																The first thing we need to do is remove Bitcoin Script. This is sad, but it is too powerful so it is impossible to merge transactions using general scripts. We will demonstrate that confidential transactions of Dr. Maxwell are enough (after some small modification) to authorize spending of outputs and also allows to make combined transactions without interaction. This is in fact identical to OWAS,and allows relaying nodes take some transaction fee or the recipient to change the transaction fees. These additional things Bitcoin can not do, we get for free.</source>
+        <target>La première chose à faire est de supprimer Bitcoin Script. C'est triste, mais trop puissant, il est donc impossible de fusionner des transactions à l'aide des scripts généraux. Nous démontrerons que les transactions confidentielles de M. Maxwell sont suffisantes (après quelques modifications mineures) pour autoriser les dépenses de sortie et permettent également de réaliser des transactions combinées sans interaction. Ceci est en fait identique à OWAS et permet aux nœuds de relais de prendre certains frais de transaction ou au destinataire de modifier les frais de transaction. Ces choses supplémentaires que Bitcoin ne peut pas faire, nous les obtenons gratuitement.</target>
+      </trans-unit>
+      <trans-unit resname="1fbf0dc8925b28e0b2ae63642f416f40" id="20">
+        <source>																We start by reminding the reader how confidential transactions work. First, the amounts are coded by the following equation:</source>
+        <target>Nous commençons par rappeler au lecteur le fonctionnement des transactions confidentielles. Tout d'abord, les montants sont codés par l'équation suivante:</target>
+      </trans-unit>
+      <trans-unit resname="bebde546f9d5bab3dd2b284d42fea7c7" id="21">
+        <source>																    C = r*G + v*H</source>
+        <target> C = r*G + v*H</target>
+      </trans-unit>
+      <trans-unit resname="cfa5a94c50c3932177a3a7b3f18c7dfc" approved="yes" id="22">
+        <source>																where C is a Pedersen commitment, G and H are fixed nothing-up-my-sleeve elliptic curve group generators, v is the amount, and r is a secret random blinding key.</source>
+        <target phase-name="approval-1" state="signed-off">ou C est une mise en gage de Pedersen,  G et H sont  des nothing-up-my-sleeve generateur de  courbe elliptique, v est le montant, et r est un secret aléatoire</target>
+      </trans-unit>
+      <trans-unit resname="bf9c508a3e6e28625d9c1c1463342bf2" id="23">
+        <source>																Attached to this output is a rangeproof which proves that v is in [0,2^64],so that user cannot exploit the blinding to produce overflow attacks, etc.</source>
+      </trans-unit>
+      <trans-unit resname="f164088d7c82ffd51f969cc395fd57e9" id="24">
+        <source>																To validate a transaction, the verifer will add commitments for all outputs, plus f*H (f here is the transaction fee which is given explicitly) and subtracts all input commitments. The result must be 0, which proves that no amount was created or destroyed overall.</source>
+        <target>Pour valider une transaction, le vérificateur ajoutera des engagements pour toutes les sorties, plus f * H (f, ici sont les les frais de transaction qui sont donnés explicitement) et soustrait tous les engagements de saisie. Le résultat doit être 0, ce qui prouve qu'aucun montant n'a été créé ou détruit dans son ensemble.</target>
+      </trans-unit>
+      <trans-unit resname="7c492cf12ada1591e64d9b8b2f1ab5c9" id="25">
+        <source>																We note that to create such a transaction, the user must know the sum of all the values of r for commitments entries. Therefore, the r-values (and their sums) act as secret keys. If we can make the r output values known only to the recipient, then we have an authentication system! Unfortunately, if we keep the rule that commits all add to 0, this is impossible, because the sender knows the sum of all _his_ r values, and therefore knows the receipient's r values sum to the negative of that. So instead, we allow the transaction to sum to a nonzero value k*G, and require a signature of an empty string with this as key, to prove its amount component is zero.</source>
+        <target>Nous notons que pour créer une telle transaction, l'utilisateur doit connaître la somme de toutes les valeurs de r pour les entrées d'engagements. Par conséquent, les valeurs-r (et leurs sommes) agissent comme des clés secrètes. Si nous pouvons faire en sorte que les valeurs de sortie ne soient connues que du destinataire, nous avons un système d'authentification! Malheureusement, si nous conservons la règle qui valide tout ajouter à 0, cela est impossible, car l'expéditeur connaît la somme de toutes_les_r valeurs et, par conséquent, la valeur de r du destinataire est négative. Donc, au lieu de cela, nous permettons à la transaction de totaliser une valeur non nulle k * G et demande la signature d'une chaîne vide avec la clé correspondante, afin de prouver que la composante du montant est égale à zéro.</target>
+      </trans-unit>
+      <trans-unit resname="9343de5122461c65c4ff872a869f9ca6" id="26">
+        <source>																We let transactions have as many k*G values as they want, each with a signature, and sum them during verification.</source>
+        <target>Nous laissons les transactions avoir autant de valeurs k * G qu’elles veulent, chacune avec une signature, et les additionner lors de la vérification.</target>
+      </trans-unit>
+      <trans-unit resname="54be82222b0b677a6ea5609cc8e907e3" id="27">
+        <source>																To create transactions sender and recipient do following ritual:</source>
+        <target>Pour créer des transactions, l'expéditeur et le destinataire effectuent les rituels suivants:</target>
+      </trans-unit>
+      <trans-unit resname="8189c4d3c904c2f5751b78fad1d4b380" id="28">
+        <source>																  1. Sender and recipient agree on amount to be sent. Call this b.</source>
+        <target>1. L'expéditeur et le destinataire conviennent du montant à envoyer. Appel ça b.</target>
+      </trans-unit>
+      <trans-unit resname="e81d00cad7ce1056ad689302d279d448" id="29">
+        <source>																  2. Sender creates transaction with all inputs and change output(s), and gives</source>
+        <target>2. L’expéditeur crée une transaction avec toutes les entrées et modifie les sorties, et donne</target>
+      </trans-unit>
+      <trans-unit resname="182118efb683bc0e50530b0a49579082" id="30">
+        <source>																     recipient the total blinding factor (r-value of change minus r-values of</source>
+        <target>au destinataire le facteur de masquage total (valeur r de la modification moins les valeurs r des</target>
+      </trans-unit>
+      <trans-unit resname="08105f5d213126b1e87de96e9af466fb" id="31">
+        <source>																     inputs) along with this transaction. So the commitments sum to r*G - b*H.</source>
+        <target>entrées) avec cette transaction. Les engagements s’élèvent donc à r * G - b * H.</target>
+      </trans-unit>
+      <trans-unit resname="4c6408cdc617d5b4301106bc89f4f4cb" id="32">
+        <source>																  3. Recipient chooses random r-values for his outputs, and values that sum</source>
+        <target>3. Le destinataire choisit des valeurs r aléatoires pour ses sorties, ainsi que des valeurs dont la somme est égale</target>
+      </trans-unit>
+      <trans-unit resname="f6cd23007b37d8695a09668a66ec2621" id="33">
+        <source>																     to b minus fee, and adds these to transaction (including range proof).</source>
+        <target>à b moins les frais, et les ajoute à la transaction (y compris la preuve de portée).</target>
+      </trans-unit>
+      <trans-unit resname="ccbecccc40dcdddf2dd9591e28d79f3a" id="34">
+        <source>																     Now the commitments sum to k*G - fee*H for some k that only recipient</source>
+        <target>Maintenant, les engagements s'élèvent à k * G - frais * H pour certains k qui ne sont que des destinataires</target>
+      </trans-unit>
+      <trans-unit resname="4d1b0f6f23a7ee269ad3c4a27d411c4b" id="35">
+        <source>																     knows.</source>
+        <target>connus</target>
+      </trans-unit>
+      <trans-unit resname="fc8c690aef9f2506d4ab032dc4311359" id="36">
+        <source>																  4. Recipient attaches signature with k to the transaction, and the explicit</source>
+        <target>4. Le destinataire joint la signature avec k à la transaction et les frais explicites. Il a fait.</target>
+      </trans-unit>
+      <trans-unit resname="18688322b1a0e552b0904a48216bc8ed" id="37">
+        <source>																     fee. It has done.</source>
+      </trans-unit>
+      <trans-unit resname="fdaa9ba7ca79ced2c9d56a68891c5e2b" id="38">
+        <source>																Now, creating transactions in this manner supports OWAS already. To show this, suppose we have two transactions that have a surplus k1*G and k2*G, and the attached signatures with these. Then you can combine the lists of inputs and outputs of the two transactions, with both k1*G and k2*G to the mix, and voilá! is again a valid transaction. From the combination, it is impossible to say which outputs or inputs are from which original transaction.</source>
+        <target>Désormais, la création de transactions de cette manière prend déjà en charge OWAS. Pour montrer cela, supposons que nous ayons deux transactions qui ont un surplus k1 * G et k2 * G, ainsi que les signatures attachées à celles-ci. Ensuite, vous pouvez combiner les listes d’entrées et de sorties des deux transactions, avec k1 * G et k2 * G dans le mix, et voilá! est à nouveau une transaction valide. À partir de la combinaison, il est impossible de dire quelles sorties ou quelles entrées proviennent de quelle transaction initiale.</target>
+      </trans-unit>
+      <trans-unit resname="d7f64ea1ca4bef041264576d47b245f5" id="39">
+        <source>																Because of this, we change our block format from Bitcoin to this information:</source>
+        <target>Pour cette raison, nous modifions notre format de bloc de Bitcoin à cette information:</target>
+      </trans-unit>
+      <trans-unit resname="a253ca83dadb1e646978ac56d398aa6b" id="40">
+        <source>																  1. Explicit amounts for new money (block subsidy or sidechain peg-ins) with</source>
+      </trans-unit>
+      <trans-unit resname="a15cec3462f4d91a59ce7f06268a9f68" id="41">
+        <source>																     whatever else data this needs. For a sidechain peg-in maybe it references</source>
+      </trans-unit>
+      <trans-unit resname="ad14a69740dfdededbed8b0f35925498" id="42">
+        <source>																     a Bitcoin transaction that commits to a specific excess k*G value?</source>
+      </trans-unit>
+      <trans-unit resname="89508a6969a456a7aacb185a909fb8c6" id="43">
+        <source>																  2. Inputs of all transactions</source>
+        <target>2. Entrées de toutes les transactions</target>
+      </trans-unit>
+      <trans-unit resname="007ce89d7fc0e87f6fdd0e12e88c0f16" id="44">
+        <source>																  3. Outputs of all transactions</source>
+        <target>3. Résultats de toutes les transactions</target>
+      </trans-unit>
+      <trans-unit resname="f454e38e03d737f3ebe3643faab35164" id="45">
+        <source>																  4. Excess k*G values for all transactions</source>
+        <target>4. Valeurs k * G en excès pour toutes les transactions</target>
+      </trans-unit>
+      <trans-unit resname="fcbf6c85f6c49a5721a9d261bd14a4be" id="46">
+        <source>																Each of these are grouped together because it do not matter what the transaction boundaries are originally. In addition, Lists 2 3 and 4 should be required to be coded in alphabetical order, since it is quick to check and prevents the block creator of leaking any information about the original transactions.</source>
+        <target>Chacune de celles-ci sont regroupées parce que les limites de la transaction importent peu. En outre, les listes 2, 3 et 4 devraient être codées par ordre alphabétique, car elles permettent de vérifier rapidement et empêchent le créateur de blocs de divulguer des informations sur les transactions initiales.</target>
+      </trans-unit>
+      <trans-unit resname="b5e261ef26e4035f5b4a3206e89c0ac1" id="47">
+        <source>																Note that the outputs are now identified by their hash, and not by their position in a transaction that could easily change. Therefore, it should be banned to have two unspent outputs are equal at the same time, to avoid confusion.</source>
+        <target>Notez que les sorties sont maintenant identifiées par leur hachage et non par leur position dans une transaction susceptible de changer facilement. Par conséquent, il faudrait interdire que deux sorties non dépensés soient égales en même temps, afin d'éviter toute confusion.</target>
+      </trans-unit>
+      <trans-unit resname="480a902cd114434d562e6385071e0cb1" id="48">
+        <source>																Merging Transactions Across Blocks</source>
+        <target>Fusion de transactions sur plusieurs blocs</target>
+      </trans-unit>
+      <trans-unit resname="57b6c1241899abd3983469f955ac9793" id="49">
+        <source>																Now, we have used Dr. Maxwell's Confidential Transactions to create a noninteractive version of Dr. Maxwell's CoinJoin, but we have not seen the last of marvelous Dr. Maxwell! We need another idea, transaction cut through, he described in [8]. Again, we create a noninteractive version of this, and to show how it is used with several blocks.</source>
+        <target>Maintenant, nous avons utilisé les Transactions confidentielles du Dr. Maxwell pour créer une version non interactive de CoinJoin, mais nous n’avons pas vu le meilleur de ce merveilleux Dr. Maxwell! Nous avons besoin d'une autre idée, transaction coupée, a-t-il décrit dans [8]. Encore une fois, nous en créons une version non interactive, pour montrer comment elle est utilisée avec plusieurs blocs.</target>
+      </trans-unit>
+      <trans-unit resname="6a2cb2ae2cb0886c50ca249d8649a22d" id="50">
+        <source>																We can imagine now each block as one large transaction. To validate it, we add all the output commitments together, then subtracts all input commitments, k*G values, and all explicit input amounts times H. We find that we could combine transactions from two blocks, as we combined transactions to form a single block, and the result is again a valid transaction. Except now, some output commitments have an input commitment exactly equal to it, where the first block's output was spent in the second block. We could remove both commitments and still have a valid transaction. In fact, there is not even need to check the rangeproof of the deleted output.</source>
+        <target>Nous pouvons maintenant imaginer chaque bloc comme une large transaction. Pour le valider, nous additionnons tous les engagements de sortie, puis soustrayons tous les engagements d’entrée, les valeurs k * G et tous les montants d’entrée explicites multipliés par H. Nous trouvons qu’il est possible de combiner des transactions de deux blocs, en combinant des transactions pour former un seul bloque, et le résultat est à nouveau une transaction valide. Sauf que maintenant, certains engagements de résultat ont un engagement d'entré exactement égal à celui-ci, la sortie du premier bloc ayant été dépensée dans le second bloc. Nous pourrions supprimer les deux engagements tout en ayant une transaction valide. En fait, il n'est même pas nécessaire de vérifier la preuve de portée de la sortie supprimée.</target>
+      </trans-unit>
+      <trans-unit resname="68bd18742d540ae70e1ee94ce1956853" id="51">
+        <source>																The extension of this idea all the way from the genesis block to the latest block, we see that EVERY nonexplicit input is deleted along with its referenced output. What remains are only the unspent outputs, explicit input amounts and every k*G value. And this whole mess can be validated as if it were one transaction: add all unspent commitments output, subtract the values k*G, validate explicit input amounts (if there is anything to validate) then subtract them times H. If the sum is 0, the entire chain is good.</source>
+        <target>L'extension de cette idée depuis le bloc genesis jusqu'au dernier bloc indique que CHAQUE entrée non explicite est supprimée avec sa sortie référencée. Ce qui reste ne sont que les sorties non dépensées, les quantités d'entrée explicites et chaque valeur k * G. Et tout ce bazar peut être validé comme s’il s’agissait d’une transaction: ajoutez tous les engagements non dépensés, soustrayez les valeurs k * G, validez les montants en entrée explicites (s’il ya quelque chose à valider), puis soustrayez-les fois H. Si la somme est égale à 0 , toute la chaîne est bonne.</target>
+      </trans-unit>
+      <trans-unit resname="77abfb620509e3bc43c5f36885a83ed8" id="52">
+        <source>																What is this mean? When a user starts up and downloads the chain he needs the following data from each block:</source>
+        <target>Quel est ce moyen? Lorsqu'un utilisateur démarre et télécharge la chaîne, il a besoin des données suivantes de chaque bloc:</target>
+      </trans-unit>
+      <trans-unit resname="73dd9c02e408c550cfcd260b6975fd92" id="53">
+        <source>																     whatever else data this needs.</source>
+        <target>quelles que soient les autres données nécessaires.</target>
+      </trans-unit>
+      <trans-unit resname="39006b8af516e68357ddef970cc7c5c9" id="54">
+        <source>																  2. Unspent outputs of all transactions, along with a merkle proof that each</source>
+        <target>2. Les sorties non utilisées de toutes les transactions, accompagnées d’une preuve de merkle que chaque</target>
+      </trans-unit>
+      <trans-unit resname="f994e87a59fade1beb2f0a38078dc7c6" id="55">
+        <source>																     output appeared in the original block.</source>
+        <target>sortie apparait dans le bloc d'origine.</target>
+      </trans-unit>
+      <trans-unit resname="2ea0ba4ae222d75892482d948092da02" id="56">
+        <source>																  3. Excess k*G values for all transactions.</source>
+        <target>3. Les valeurs k * G en excès pour toutes les transactions.</target>
+      </trans-unit>
+      <trans-unit resname="f47bd0878eac07ad317e9731297551ba" id="57">
+        <source>																Bitcoin today there are about 423000 blocks, totaling 80GB or so of data on the hard drive to validate everything. These data are about 150 million transactions and 5 million unspent nonconfidential outputs. Estimate how much space the number of transactions take on a Mimblewimble chain. Each unspent output is around 3Kb for rangeproof and Merkle proof. Each transaction also adds about 100 bytes: a k*G value and a signature. The block headers and explicit amounts are negligible. Add this together and get 30Gb -- with a confidential transaction and obscured transaction graph!</source>
+        <target>Aujourd'hui,  il y a environ 423000 blocs sur Bitcoin, totalisant environ 80 Go de données sur le disque dur pour tout valider. Ces données représentent environ 150 millions de transactions et 5 millions de sorties non confidentielles non dépensées. Estimez l'espace occupé par le nombre de transactions sur une chaîne Mimblewimble. Chaque sortie non dépensée est d’environ 3Kb la preuve de portée et la preuve de merkle. Chaque transaction ajoute également environ 100 octets: une valeur k * G et une signature. Les en-têtes de bloc et les montants explicites sont négligeables. Ajoutez ceci ensemble et obtenez 30 Go - avec une transaction confidentielle et un graphique de transaction masqué!</target>
+      </trans-unit>
+      <trans-unit resname="8c6a9a91cc30cd11445d7afe5f7c02d9" id="58">
+        <source>																Questions and Intuition</source>
+        <target>Questions et intuition</target>
+      </trans-unit>
+      <trans-unit resname="0e0a0f0956153e8ec934749596478635" id="59">
+        <source>																Here are some questions that since these weeks, dreams asked me and I woke up sweating.</source>
+        <target>Voici quelques questions qui depuis quelques semaines m'empêchaient de dormir tranquillement et me faisaient réveiller en sueur.</target>
+      </trans-unit>
+      <trans-unit resname="40f76149939a83e1275618474c440e9a" id="60">
+        <source>																But in fact it is OK.</source>
+        <target>Mais en vrai c'est OK.</target>
+      </trans-unit>
+      <trans-unit resname="c1adb54d687eaceb5e5c7bf49eb5c96d" id="61">
+        <source>																  Q. If you delete the transaction outputs, user cannot verify the range proof and maybe</source>
+        <target>Q. Si vous supprimez les sorties de transaction, l’utilisateur ne peut pas vérifier la preuve de portée et peut-être</target>
+      </trans-unit>
+      <trans-unit resname="5864296370f6e90a475d6a67330cc036" id="62">
+        <source>																     a negative amount is created.</source>
+        <target>un montant négatif est créé.</target>
+      </trans-unit>
+      <trans-unit resname="a7b592f75c165fff4ba50e622ab76094" id="63">
+        <source>																  A. This is OK. For the entire transaction to validate all negative amounts must have been destroyed. User have SPV security only that no illegal inflation happened in the past, but the user knows that _at this time_ no inflation occurred.</source>
+        <target>R. C'est OK. Pour que la transaction entière soit validée, tous les montants négatifs doivent avoir été détruits. Les utilisateurs ont la sécurité SPV seulement qu’aucune inflation illégale ne s’est produite dans le passé, mais l’utilisateur sait que, cette fois, aucune inflation ne s’est produite.</target>
+      </trans-unit>
+      <trans-unit resname="cbfb83067de7ba61566d9d5422e86d52" id="64">
+        <source>																  Q. If you delete the inputs, double spending can happen.</source>
+        <target>Q. Si vous supprimez les entrées, une double dépense peut arriver.</target>
+      </trans-unit>
+      <trans-unit resname="1b6ed71577a34341584ab4931f934130" id="65">
+        <source>																  A. In fact, this means: maybe someone claims that some unspent output was spent in the old days. But this is impossible, otherwise the sum of the combined transaction could not be zero.</source>
+        <target>R. En fait, cela signifie: que peut-être quelqu'un prétend qu'une partie de la production non dépensée a été dépensée autrefois. Mais c'est impossible, sinon la somme de la transaction combinée ne pourrait pas être nulle.</target>
+      </trans-unit>
+      <trans-unit resname="5d477c8e71750125cdab24c913a2da1d" id="66">
+        <source>																     An exception is that if the outputs are amount zero, it is possible to make two that are negatives of each other, and the pair can be revived without anything breaks. So to prevent consensus problems, outputs 0-amount should be banned. Just add H at each output, now they all amount to at least 1.</source>
+        <target>Une exception est que si les sorties sont égales à zéro, il est possible d’en faire deux négatives, et la paire peut être ravivée sans aucune interruption. Donc, pour éviter les problèmes de consensus, les sorties du montant 0 devraient être interdites. Il suffit d’ajouter H à chaque sortie, elles représentent toutes au moins 1.</target>
+      </trans-unit>
+      <trans-unit resname="ceee4333bcff23d832fd047b99324960" id="67">
+        <source>																Future Research</source>
+        <target>Recherche future</target>
+      </trans-unit>
+      <trans-unit resname="ac49a9edf51907b64b61e16c05f32417" id="68">
+        <source>																Here are some questions I can not answer at the time of this writing.</source>
+        <target>Voici quelques questions auxquelles je ne peux pas répondre au moment d'écrire ces lignes.</target>
+      </trans-unit>
+      <trans-unit resname="041b43778286bbce607e61179584773f" id="69">
+        <source>																1. What script support is possible? We would need to translate script operations into some sort of discrete logarithm information.</source>
+        <target>1. Quel support de script est possible? Nous aurions besoin de traduire les opérations de script en une sorte d'information logarithmique discrète.</target>
+      </trans-unit>
+      <trans-unit resname="aa493a5ccf59a1d607b9d5be628a7031" id="70">
+        <source>																2. We require user to check all k*G values, when in fact all that is needed is that their sum is of the form k*G. Instead of using signatures is there another proof of discrete logarithm that could be combined?</source>
+        <target>2. Nous demandons à l'utilisateur de vérifier toutes les valeurs k * G, alors qu'en fait, il suffit que leur somme soit de la forme k * G. Au lieu d'utiliser des signatures, existe-t-il une autre preuve de logarithme discret qui pourrait être combinée?</target>
+      </trans-unit>
+      <trans-unit resname="c5f0dadbc7c85b0b9daf990f5c02618c" id="71">
+        <source>																3. There is a denial-of-service option when a user downloads the chain, the peer can give gigabytes of data and list the wrong unspent outputs. The user will see that the result do not add up to 0, but cannot tell where the problem is.</source>
+        <target>3. Il existe une option de déni de service lorsqu'un utilisateur télécharge la chaîne. L'homologue peut donner des giga-octets de données et répertorier les mauvais résultats non dépensés. L'utilisateur verra que le résultat ne correspond pas à 0, mais ne pourra pas dire où se trouve le problème.</target>
+      </trans-unit>
+      <trans-unit resname="b45bad3ea9db753817965c2eb382bf95" id="72">
+        <source>																   For now maybe the user should just download the blockchain from a Torrent or something where the data is shared between many users and is reasonably likely to be correct.</source>
+        <target>Pour l'instant, l'utilisateur devrait peut-être simplement télécharger la blockchain depuis un Torrent ou quelque chose où les données sont partagées par de nombreux utilisateurs et sont raisonnablement susceptibles d'être correctes.</target>
+      </trans-unit>
+      <trans-unit resname="6f46632747cff4448c7a6a182cbe1403" id="73">
+        <source>																[1] https://people.xiph.org/~greg/confidential_values.txt</source>
+        <target>																[1] https://people.xiph.org/~greg/confidential_values.txt</target>
+      </trans-unit>
+      <trans-unit resname="c16b9c449e3120b45d47529e345ed775" id="74">
+        <source>																[2] https://bitcointalk.org/index.php?topic=279249.0</source>
+        <target>																[2] https://bitcointalk.org/index.php?topic=279249.0</target>
+      </trans-unit>
+      <trans-unit resname="15bf5c38ea14a9b2ebbc468841c68d38" id="75">
+        <source>																[3] https://cryptonote.org/whitepaper.pdf</source>
+        <target>																[3] https://cryptonote.org/whitepaper.pdf</target>
+      </trans-unit>
+      <trans-unit resname="cb4f7916f7196e24834d39bc6abeef34" id="76">
+        <source>																[4] https://eprint.iacr.org/2015/1098.pdf</source>
+        <target>																[4] https://eprint.iacr.org/2015/1098.pdf</target>
+      </trans-unit>
+      <trans-unit resname="9d5f69351299b99fae0897eeaad5f5c6" id="77">
+        <source>																[5] https://download.wpsoftware.net/bitcoin/wizardry/horasyuanmouton-owas.pdf</source>
+        <target>																[5] https://download.wpsoftware.net/bitcoin/wizardry/horasyuanmouton-owas.pdf</target>
+      </trans-unit>
+      <trans-unit resname="291cbc9f0031fed1c63eb03456a20df8" id="78">
+        <source>																[6] http://blockstream.com/sidechains.pdf</source>
+        <target>																[6] http://blockstream.com/sidechains.pdf</target>
+      </trans-unit>
+      <trans-unit resname="0754d03f6c2d912efeeb4c282044d7df" id="79">
+        <source>																[7] http://fr.harrypotter.wikia.com/wiki/Sortilège_de_Langue_de_Plomb</source>
+        <target>																[7] http://fr.harrypotter.wikia.com/wiki/Sortilège_de_Langue_de_Plomb</target>
+      </trans-unit>
+      <trans-unit resname="733834e695aec0118068f88d2974a809" id="80">
+        <source>																[8] https://bitcointalk.org/index.php?topic=281848.0</source>
+        <target>																[8] https://bitcointalk.org/index.php?topic=281848.0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
